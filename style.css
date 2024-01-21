@@ -489,7 +489,7 @@ div.layer{
 /* ---------Experience--------------- */
 .experience{
     height: 70vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 /* --------------------contact-us------------------ */
@@ -548,7 +548,7 @@ div.layer{
     margin: 8px;
     border-radius: 8px;
     text-decoration: none;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 1rem;
     background-color: #e5ecfb;
 }
@@ -598,7 +598,7 @@ div.layer{
 /* --------------footer------------- */
 
 .main-footer{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background: rgb(0, 1, 43);
     color: white;
     font-weight: normal;
@@ -709,12 +709,18 @@ div.layer{
     }
 
     .contact img{
-        width: 395px;
+        width: 316px;
+        height: 323px;
     }
 
     .basicinfo{
         margin: 0 auto;
         flex-wrap: wrap;
+    }
+
+    .contact{
+        margin-top: 10px;
+        gap: 23px;
     }
 
     .footer{
@@ -727,6 +733,7 @@ div.layer{
 
     .contact input{
         width: 250px;
+        padding: 12px;
     }
 
     .contact-info h3{
@@ -778,4 +785,39 @@ div.layer{
         height: 55px;
         justify-content: flex-start;
     }
+
+    .input i {
+        font-size: 1.3rem;
+    }
+    .basicinfo h3{
+        text-align: center;
+    }
+
+    div .layer{
+        gap: 6px;
+    }
+
+    .layer h4{
+        font-size: 11px;
+    }
+
+    .layer  i{
+        font-size: 1rem;
+    }
+
+    .layer p{
+        font-size: 6px;
+    }
+
+    .butns a {
+        height: 27px;
+        background-color: rgb(255, 255, 255);
+        width: 31px;
+        border-radius: 50%;
+        display: inline-block;
+        line-height: 31px;
+        text-align: center;
+        margin: 0px 19px;
+    }
+    
 }
