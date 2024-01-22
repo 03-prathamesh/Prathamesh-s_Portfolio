@@ -303,6 +303,7 @@ i{
     /* background: linear-gradient(to bottom, #1717e7, #00002c); */
    width: 75%;
    padding: 40px;
+   place-items: center; 
    box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.9);
  
     /* align-items: center; */
@@ -660,7 +661,7 @@ div.layer{
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     padding: 30px;
-    width: 85vw;
+    width: 93vw;
     margin: 0px auto;
     box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3);
     border-radius: 20px;
@@ -848,6 +849,7 @@ div.layer{
     .abilities{
         flex-wrap: wrap;
         width: 93%;
+        place-items: center; 
         grid-template-columns: repeat(2, 1fr);
     }
 
