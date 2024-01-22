@@ -854,7 +854,7 @@ div.layer{
     #top{
         position: absolute;
     right: 26px;
-    top: 322px;
+    top: 312px;
     border: 2px solid black;
     border-radius: 50%;
     width: 58gitpx;
@@ -903,7 +903,7 @@ div.layer{
     .contact{
         margin-top: 10px;
         gap: 23px;
-        width: 87vw;
+        width: 74vw;
         margin-top: 10px;
         margin-bottom: 10px;
         /* padding: 30px 10px; */
@@ -918,7 +918,7 @@ div.layer{
     }
 
     .contact input{
-        width: 235px;
+        width: 237px;
         padding: 12px;
     }
 
