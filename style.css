@@ -741,6 +741,7 @@ div.layer{
     font-weight: normal;
     /* position: relative; */
     /* margin-top:10px  */
+    position: relative;
 }
 
 .footer{
@@ -795,6 +796,34 @@ div.layer{
 }
 
 
+#top{
+    position: absolute;
+    right: 40px;
+    top: 260px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    /* Center horizontally IMP*/
+    line-height: 75px;  /* Center vertically */
+    /* background-color: #011aff; */
+    background-color: orange;
+}
+
+#top i{
+    font-size: 2.4rem;
+    /* line-height: 60px; */
+   /* margin: 0 auto; */
+    color:#00002c;
+    margin-left: 10px;
+
+    /* margin: 0 auto; */
+    /* used to center the element inside its parent */
+    /* padding: 10px; */
+    
+}
+
 
 
 
@@ -822,9 +851,19 @@ div.layer{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .skills{
-
+    #top{
+        position: absolute;
+    right: 26px;
+    top: 322px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 58gitpx;
+    height: 55px;
+    text-align: center;
+    line-height: 75px;
     }
+
+ 
 
     .projects{
         grid-template-columns: repeat(1, 1fr);
