@@ -21,12 +21,15 @@ font-family: 'Baloo Bhai 2', sans-serif;
       display: flex;
       justify-content: space-around;
       align-items: center;
+      /* background-color: orange; */
+      
 }
 .header h3{
     font-size: 4rem;
    /* color:  #0984ad; */
    color: orange;
    font-weight: 800;
+   
    font-family: 'Poppins', sans-serif;
 }
 
@@ -71,7 +74,7 @@ font-family: 'Baloo Bhai 2', sans-serif;
     /* border: 2px solid black; */
     background-color: #fff;
     
-    
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.1);
     display: flex;
     /* flex-direction: row; */
     justify-content: space-around;
@@ -141,10 +144,17 @@ font-family: 'Baloo Bhai 2', sans-serif;
     /* background-color: purple; */
     /* position: relative; */
     /* border: 2px solid black; */
+    /* background-color: orange; */
 }
 
 .personal_info h4{
     color: #011aff;
+}
+.aboutme i{
+    font-size: 2.4rem;
+}
+.aboutme h1{
+    font-size: 3.2rem;
 }
 .about{
     min-height: 80vh;
@@ -208,6 +218,7 @@ color: #3a18d2f5;
     color: #3a18d2f5;
 }
 
+
 .des button{
     padding: 8px 25px;
     border-radius: 4px;
@@ -264,6 +275,15 @@ i{
    
    
 }
+
+#skillsss i{
+    font-size: 2.4rem;
+    color: black;
+    margin-right: 14px;
+}
+.skillsss{
+    font-size: 2.6rem;
+}
 .sks img{
     /* border: 2px solid black; */
     height: 55px;
@@ -305,18 +325,24 @@ i{
 .education{
     /* height: 80vh; */
     /* border: 2px solid black; */
+    /* background-color: orange; */
 }
-
+.school{
+   /* border: 2px solid black; */
+   padding: 10px;
+   /* margin-bottom: 800px; */
+}
 .engi{
     /* border: 2px solid black;     */
     /* margin-top: 100px; */
+    /* margin-bottom: 800px; */
     text-align: start;
     padding: 20px;
     margin: 15px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 5px 10px rgba(7, 7, 7, 0.9);
-    transition: transform 0.5s ease;
+    transition: transform 0.4s ease;
     /* border: 2px solid blue; */
 }
 
@@ -333,14 +359,17 @@ i{
     /* display: flex; */
     width: 50%;
     /* align-items: center; */
-    margin: 50px auto;
+    margin: 0 auto;
     /* border: 2px solid black; */
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
     
 }
 
 .education h1{
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 0px; */
+    padding-top: 30px;
     font-size: 2.4rem;
     font-family: 'Poppins', sans-serif;
  
@@ -374,7 +403,7 @@ i{
     /* height: 2000px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 100px;
+    padding: 70px;
     gap: 20px;
 }
 
@@ -525,19 +554,77 @@ div.layer{
 
 /* ---------Experience--------------- */
 .experience{
-    height: 70vh;
+    min-height: 70vh;
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: orange;
     /* border: 2px solid black; */
+}
+
+#exp span{
+    color: darkblue;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    /* position: absolute ; */
+}
+#exp h1{
+    font-size: 2.6rem;
+}
+.exper{
+    background-color: #0f46a2;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3);
+    
+}
+
+.exper h3{
+    color:white ;
+    font-family:sans-serif;
+    font-size: 1.5rem;
+    font-weight: 750;
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.exper h4{
+    font-size: 1.3rem;
+    color: orange;
+}
+.exper p{
+    font-size: 0.9rem;
+}
+
+.experience{
+    /* text-align: center; */
+    
+}
+
+.experience i{
+    font-size: 2rem;
 }
 
 /* --------------------contact-us------------------ */
 .contact-us{
     background-color: #e5ecfb;
+    /* background-color: background: #e5ecfb;; */
+    /* background-color: orange; */
+    padding: 20px;
 }
 
 .contact-us h2{
     font-size: 2.4rem;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .contact-us i{
@@ -552,7 +639,9 @@ div.layer{
 
 .contact-us{
     /* display: fle; */
-    margin-bottom: 50px;
+    /* margin-bottom: 0px; */
+    /* border: 2px solid black; */
+    /* padding-bottom: 100px; */
 }
 
 .contact{
@@ -566,9 +655,14 @@ div.layer{
     background-color: #fff;
     padding: 30px;
     width: 85vw;
-    margin: 50px auto;
+    margin: 0px auto;
     box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.3);
     border-radius: 20px;
+    /* margin-bottom: 200px; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* margin-bottom: 300px; */
+  
 }
 
 .contact img{
@@ -625,15 +719,6 @@ div.layer{
     cursor: pointer;
 }
 
-.fa-message::before {
-    content: '\f15c'; /* Unicode character code for the Font Awesome message icon */
-    font-family: 'Font Awesome 5 Free'; /* Font Awesome font family */
-    margin-right: 5px; /* Adjust spacing if needed */
-}
-
-
-    
-
 .btn i{
     font-size: 1.3rem;
     margin-left: 10px;
@@ -649,13 +734,14 @@ div.layer{
     color: white;
     font-weight: normal;
     /* position: relative; */
+    /* margin-top:10px  */
 }
 
 .footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* gap: 100px; */
 }
 
