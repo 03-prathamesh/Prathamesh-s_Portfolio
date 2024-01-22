@@ -1,12 +1,12 @@
 const hams=document.getElementById("ham");
 const chan=document.querySelector(".homes");
-const t=documen.getElementById("top");
+const t=document.getElementById("top");
 var click=false;
 const home=document.querySelector(".hms");
 hams.addEventListener("click",()=>{
      
       
-     if(click===false){ 
+     if(click==false){ 
        chan.style.display="flex";
        click=true;
      }
