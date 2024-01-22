@@ -917,12 +917,12 @@ div.layer{
         gap: 23px;
         width: 95vw;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         /* padding: 30px 10px; */
     }
 
     .footer{
-        flex-wrap: wrap;gi
+        flex-wrap: wrap;
     }
 
     .sks{
@@ -930,7 +930,7 @@ div.layer{
     }
 
     .contact input{
-        width: 275px;
+        width: 253px;
         padding: 12px;
     }
 
