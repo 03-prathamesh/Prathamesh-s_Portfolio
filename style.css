@@ -897,6 +897,9 @@ div.layer{
 
     .contact{
         flex-wrap: wrap;
+        /* VERY IMP->jar contact chi height dili asti na tr tyacha content overflow zhala asta. tyamule ektr parent chi height nay dyaychi kinva min-height dyaychi tyamule dynamcially tyachya 
+        child content chya acc te adjust hotat 
+        fakt flex box sathich nahi saglyassathi*/
     }
 
     .contact img{
@@ -919,7 +922,7 @@ div.layer{
     }
 
     .footer{
-        flex-wrap: wrap;
+        flex-wrap: wrap;gi
     }
 
     .sks{
@@ -927,7 +930,7 @@ div.layer{
     }
 
     .contact input{
-        width: 250px;
+        width: 275px;
         padding: 12px;
     }
 
@@ -1052,7 +1055,8 @@ div.layer{
     }
 
     .contact-us{
-        place-items: center;
+        /* place-items: center; */
+        padding: 0px;
     }
 
     
