@@ -861,6 +861,7 @@ div.layer{
     .contact{
         margin-top: 10px;
         gap: 23px;
+        width: 77vw;
     }
 
     .footer{
@@ -983,6 +984,15 @@ div.layer{
     .homes a{
          color: white;
          font-size: 1.4rem;
+    }
+
+    .exper{
+        width: 77%;
+    }
+
+    .experience{
+        min-height: 50vh;
+        gap: 51px;
     }
 
     
