@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 
 }
@@ -817,6 +818,7 @@ div.layer{
 
     .abilities{
         flex-wrap: wrap;
+        width: 87%;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -836,6 +838,7 @@ div.layer{
 
     .engi{
         width: 80%;
+        margin: 15px auto;
         /* border: 2px solid black; */
     }
 
@@ -861,7 +864,10 @@ div.layer{
     .contact{
         margin-top: 10px;
         gap: 23px;
-        width: 77vw;
+        width: 87vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* padding: 30px 10px; */
     }
 
     .footer{
