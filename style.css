@@ -23,8 +23,9 @@ font-family: 'Baloo Bhai 2', sans-serif;
       justify-content: space-around;
       align-items: center;
       /* background-color: orange; */
-      background-color: #EEF5FF;
+      /* background-color: black; */
       /* background-color: orange; */
+      /* background-color: #d8e2f9; */
       
       
 }
@@ -115,7 +116,7 @@ font-family: 'Baloo Bhai 2', sans-serif;
     /* border: 2px solid black; */
     background-color: #fff;
     
-    box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.8);
+    box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.2);
     display: flex;
     /* flex-direction: row; */
     justify-content: space-around;
@@ -182,10 +183,21 @@ font-family: 'Baloo Bhai 2', sans-serif;
 
 /* ---------------------------------about ------------------------------- */
 .mainabout{
-    /* background-color: purple; */
+    background-color:#F3F8FF;
+    
+    /* background-color: #011aff; */
+    /* box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.9); */
+
     /* position: relative; */
     /* border: 2px solid black; */
     /* background-color: orange; */
+    /* border: 2px solid yellow;  dont give min-heigh, and if you give it border it heigh will get increase(if about div has padding 200px) and  
+    when you remove it it get decrease -->this is the issue you have to solve*/
+    min-height: 100vh;
+    /* box-sizing: border-box; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* padding-bottom: 1px; */
 }
 
 .personal_info h4{
@@ -199,7 +211,9 @@ font-family: 'Baloo Bhai 2', sans-serif;
 }
 .about{
     min-height: 80vh;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    /* margin: 100px 0; */
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +225,8 @@ font-family: 'Baloo Bhai 2', sans-serif;
     /* border: 2px solid black; */
     /* margin: 20px 10%; */
     padding: 20px 8%;      /*div made padding saglya bajuni dili ki content vr jail*/
+    /* height: 900px; */
+    /* margin-bottom: 40px; its parent div will not increase its heigh */
 }
 .about img{
     min-height: 520px;
@@ -298,6 +314,12 @@ i{
    flex-direction: column;
    align-items: center;
    border-radius: 10px;
+   transition: transform 0.4s ease;
+}
+
+.sks:hover{
+    transform: scale(1.09);
+    cursor: pointer;
 }
 .sks h3{
     color: white;
@@ -992,6 +1014,7 @@ div.layer{
     }
     .header{
         flex-wrap: wrap;
+        min-height: 90vh;
     }
     .header h3{
         font-size: 3rem;
