@@ -25,3 +25,11 @@ t.addEventListener("click",()=>{
       home.style.src="#hm";
 
 });
+
+// const changes=document.querySelector(".change");
+var typed =new Typed(".change",{
+    strings: ["Full-Stack Developer","Programmer","Problem-solver"],
+    typeSpeed:90,
+    backSpeed:90,
+    loop:true
+})

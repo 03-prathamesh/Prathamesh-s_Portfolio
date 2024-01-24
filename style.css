@@ -46,8 +46,8 @@ font-family: 'Baloo Bhai 2', sans-serif;
     
 }
 #hamss:hover{
-    /* transform: scale(1); */
-    color: blue;
+    /* transform: rotate(45deg); */
+    /* color: blue; */
 }
 
 #links{
@@ -57,6 +57,11 @@ font-family: 'Baloo Bhai 2', sans-serif;
 }
 .names button:hover{
    background-color: #011aff;
+}
+
+.names button{
+    /* margin-top: 40px; */
+    /* margin-top: 126px; */
 }
 
 
@@ -70,12 +75,23 @@ font-family: 'Baloo Bhai 2', sans-serif;
     top: 15px;
     /* margin-right: 1px; */
 }
-.header p{
-    color: #002057;
-    font-size: 1.8rem;
+
+.change{
+    color: #190482;
+    /* 362FD9 */
+    font-size: 2.3rem;
+}
+
+#prathameshamundkar p{
+     color: #002057;
+}
+.text-change p{
+    /* color: #002057; */
+    color: black;
+    font-size: 1.9rem;
 }
 .header h3 p{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .header button{
@@ -978,16 +994,18 @@ div.layer{
         flex-wrap: wrap;
     }
     .header h3{
-        font-size: 3rem;
+        font-size: 2.9rem;
         margin-left: 10px;
     }
     .header h3 p{
         font-size: 1.8rem;
+        margin-top: 38px;
     }
 
 
     .header p {
         margin-left: 10px;
+        font-size: 1.7rem;
     }
     .header button{
         margin-left: 10px;
@@ -1078,6 +1096,11 @@ div.layer{
     .contact-us{
         /* place-items: center; */
         padding: 0px;
+    }
+
+    .change{
+        /* font-size: 2rem; */
+        font-size: 1.99rem;
     }
 
     
