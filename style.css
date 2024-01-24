@@ -17,7 +17,7 @@ font-family: 'Baloo Bhai 2', sans-serif;
 }
 
 .header{
-      height: 90vh;
+      height: 92vh;
       /* border: 2px solid black; */
       display: flex;
       justify-content: space-around;
@@ -43,11 +43,11 @@ font-family: 'Baloo Bhai 2', sans-serif;
 }
 
 #hamss{
-    transition: transform 0.4s ease;
+    /* transition: transform 0.4s ease; */
     
 }
 #hamss:hover{
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
     /* color: blue; */
 }
 
@@ -183,7 +183,8 @@ font-family: 'Baloo Bhai 2', sans-serif;
 
 /* ---------------------------------about ------------------------------- */
 .mainabout{
-    background-color:#F3F8FF;
+    /* background-color:#FFF8E3; */
+    background-color: #FAF6F0;
     
     /* background-color: #011aff; */
     /* box-shadow: 0px 5px 10px rgba(7, 0, 9, 0.9); */
